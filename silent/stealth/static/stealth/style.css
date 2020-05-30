@@ -1,6 +1,6 @@
 body {
-    background: white url("images/background.jpg") no-repeat;
-    background-size: cover;
+    background-color: rgba(150, 149, 149, 0.041);
+    margin:0;
 }
 h1 {
     color: black;
@@ -13,3 +13,44 @@ p {
     text-align: center;
     font-family: 'Trebuchet MS';
   }
+
+.box-1{
+    padding: 3px 3px;
+  }
+
+.container{
+    width:40%;
+    margin:auto;
+    background-color: white;
+}
+
+.input-box{
+    width:350px;
+    height:40px;
+    font-size: 12pt;
+    margin:auto;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background-color: white;
+}
+
+.button{
+    width:160px;
+    height:30px;
+    font-size: 12pt;
+    margin:auto;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+.header{
+    height:70px;
+    width:100%;
+    background-color: white;
+}
+
+.callout{
+    font-size: 14pt;
+    text-align: center;
+}
