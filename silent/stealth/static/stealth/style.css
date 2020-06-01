@@ -1,27 +1,51 @@
 body {
-    background-color: rgba(150, 149, 149, 0.041);
+    background-color: rgb(241, 240, 240);
     margin:0;
 }
-h1 {
+.title {
     color: black;
     text-align: center;
     font-family: 'Trebuchet MS';
+    font-size:35pt;
   }
+
+.clr {
+    clear:both;
+}
+
+a {
+    color: rgba(237, 117, 72, 0.91);
+}
 
 p {
     color: black;
     text-align: center;
     font-family: 'Trebuchet MS';
-  }
+}
 
-.box-1{
+.container-left{
+    width:45%;
+    background-color: rgb(241, 240, 240);
     padding: 3px 3px;
-  }
+    margin-top: 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
 
-.container{
-    width:40%;
-    margin:auto;
+.container-right{
+    width:45%;
     background-color: white;
+    padding: 3px 3px;
+    margin-top: 20px;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 40px;
+}
+
+.container-main{
+    padding-bottom: 30px;
+    width: 100%;
 }
 
 .input-box{
@@ -30,27 +54,63 @@ p {
     font-size: 12pt;
     margin:auto;
     font-family: 'Trebuchet MS';
-    text-align: center;
+    text-align: left;
     background-color: white;
+    padding-left: 10px;
+    border-color: rgba(237, 117, 72, 0.91);
+    border-style: solid;
 }
 
 .button{
-    width:160px;
-    height:30px;
+    width:180px;
+    height:40px;
     font-size: 12pt;
     margin:auto;
-    border-radius: 5px;
+    border-radius: 30px;
     font-family: 'Trebuchet MS';
     text-align: center;
+    color:white;
+    background-color: rgba(237, 117, 72, 0.91);
 }
 
 .header{
     height:70px;
     width:100%;
     background-color: white;
+    vertical-align: middle;
 }
 
 .callout{
-    font-size: 14pt;
+    font-size: 25pt;
     text-align: center;
+    font-weight: bold;
 }
+
+.logo{
+    height:50px;
+    width:50px;
+    padding: 10px 10px;
+}
+
+.logo_bottom{
+    height:50px;
+    width:50px;
+    padding: 10px 10px;
+}
+
+.footer{
+    margin-top: 70px;
+    height:70px;
+    width:100%;
+    background-color: rgb(145, 145, 145);
+    vertical-align: middle;
+    color:white;
+}
+
+.copyright{
+    vertical-align: middle;
+    position: relative;
+    top: 30px;
+    color:white;
+}
+

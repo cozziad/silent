@@ -7,23 +7,38 @@
     </head>
 
     <body>
+
         <header class="header">
-            <img src="{{STATIC_URL}}/stealth/images/logo.png" / >
+            <img class="logo" src="{% static "stealth/images/logo_nw.png" %}" alt="My image"/>
         </header>
-        <h1>We are currently in stealth mode</h1>
-        <p>At Silent we believe that not everything needs change to be better. That's why we are building things the same as before.</p>
-        <p>Want to join the same as before movement? Leave us your email & LinkedIn profile below and we'll be in touch.</p>
-        
-        <div class="container">
-            <div class="box-1">
-            <p class="callout">Join the waitlist now - you won't be dissapointed</p>
-            <form action="index.html" method="POST">
-                <p><input class="input-box" type="email" name="email" placeholder="<Email>" value=""/></p>
-                <p><input class="input-box" type="linkedin" name="linkedin" placeholder="<LinkedIn Profile>" value=""/></p>
-                <p><input class="button" type="submit" value="Join the movement" /></p>
-            </form>
-            </div>
+
+        <h1 class="title">We are currently in stealth mode</h1>
+
+        <div class="container-main">
+
+            <section class="container-left">
+                <p>At Silent we believe that not everything needs change to be better.</p>
+                <p>That's why we are building things the same as before.</p>
+                <p>Want to join the same as before movement?</p>
+            </section>
+
+            <section class="container-right">
+                <p class="callout">Join the waitlist</p>
+                <form action="index.html" method="POST">
+                    <p><input class="input-box" type="email" name="email" placeholder="Email" value=""/></p>
+                    <p><input class="input-box" type="linkedin" name="linkedin" placeholder="LinkedIn Profile" value=""/></p>
+                    <p><input class="button" type="submit" value="Start Here" /></p>
+                </form>
+            </section>
+            
+            <div class="clr"/>
+
         </div>
-        <footer class="footer"></footer>
+
+        <footer class="footer">
+            <p class="copyright"><a href="privacy.html">Privacy Policy</a> | <a href="faq.html">FAQ</a> | Silent Change &copy; 2020 Silent Change Inc.</p>
+        </footer>
+
     </body>
+    
 </html>
